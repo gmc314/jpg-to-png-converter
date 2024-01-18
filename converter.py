@@ -23,4 +23,3 @@ for file in os.listdir(input_directory):
    # 4. convert jpg to png
    # 5. save converted images to new folder 
    img.save(f'{new_directory_str}/{img_name}.png', 'png')    
-    
